@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reefact.FluentRequestBinder.AspNet", "Reefact.FluentRequestBinder.AspNet\Reefact.FluentRequestBinder.AspNet.csproj", "{F3A202DF-A43B-4FDD-A2A2-A8B533F65B70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{B617CFE3-2446-4D6A-A06D-6BA24722A33D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{276AF0B8-AA85-4D81-BE0B-CCD10C64F211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D4EC83AA-F66C-4AC9-8B94-B60E5A7A7DAC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		icon.ico = icon.ico
+		icon.png = icon.png
+		LICENSE = LICENSE
+		README-DE.md = README-DE.md
+		README-EN.md = README-EN.md
+		README-ES.md = README-ES.md
+		README-GR.md = README-GR.md
+		README-NL.md = README-NL.md
+		README-NO.md = README-NO.md
+		README-SE.md = README-SE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reefact.FluentRequestBinder.AspNet.UnitTests", "Reefact.FluentRequestBinder.AspNet.UnitTests\Reefact.FluentRequestBinder.AspNet.UnitTests.csproj", "{24B4C019-7E7E-4D01-87A4-44B58F4F9CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3A202DF-A43B-4FDD-A2A2-A8B533F65B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A202DF-A43B-4FDD-A2A2-A8B533F65B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A202DF-A43B-4FDD-A2A2-A8B533F65B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A202DF-A43B-4FDD-A2A2-A8B533F65B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B4C019-7E7E-4D01-87A4-44B58F4F9CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B4C019-7E7E-4D01-87A4-44B58F4F9CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B4C019-7E7E-4D01-87A4-44B58F4F9CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B4C019-7E7E-4D01-87A4-44B58F4F9CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3A202DF-A43B-4FDD-A2A2-A8B533F65B70} = {B617CFE3-2446-4D6A-A06D-6BA24722A33D}
+		{24B4C019-7E7E-4D01-87A4-44B58F4F9CB7} = {276AF0B8-AA85-4D81-BE0B-CCD10C64F211}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18425557-8BE5-4260-84AF-A89E2D2B8640}
+	EndGlobalSection
+EndGlobal
