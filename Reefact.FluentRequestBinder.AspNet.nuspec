@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Reefact.FluentRequestBinder.AspNet</id>
+    <title>Asp.Net Adapter for Fluent Request Binder</title>
+    <version>5.0.0</version>
+    <authors>Sylvain AURAT</authors>
+    <owners>Sylvain AURAT</owners>
+    <license type="expression">Apache-2.0</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/Reefact/fluent-request-binder-aspnet</projectUrl>
+    <repository type="git" url="https://github.com/Reefact/fluent-request-binder-aspnet.git"/>
+    <icon>images\icon.png</icon>
+    <description>Provides a full integration of the FluentRequestBinder library to Asp.Net projects.</description>
+    <summary>Reefact.FluentRequestBinder.AspNet is designed to simplify the integration of FluentRequestBinder into your ASP.NET application.</summary>
+    <readme>docs\readme.md</readme>
+    <releaseNotes></releaseNotes>
+    <copyright>©2023 Reefact</copyright>
+    <language>en-US</language>
+    <tags>DDD DomainDrivenDesign Binding CQRS Decoupling Contract Query Command Request ModelDrivenDesign REST fluent ASP.Net MVC</tags>
+    <dependencies>
+      <group targetFramework="net5.0" ></group>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Images -->
+    <file src="icon.png" target="images\" />
+    <!-- Library -->
+    <!-- net5.0  -->
+    <file src="Reefact.FluentRequestBinder.AspNet\bin\Debug\net5.0\Reefact.FluentRequestBinder.AspNet.dll" target="lib\net5.0\Reefact.FluentRequestBinder.dll" />
+    <file src="Reefact.FluentRequestBinder.AspNet\bin\Debug\net5.0\Reefact.FluentRequestBinder.AspNet.xml" target="lib\net5.0\Reefact.FluentRequestBinder.xml" />
+    <file src="Reefact.FluentRequestBinder.AspNet\bin\Debug\net5.0\Reefact.FluentRequestBinder.AspNet.pdb" target="lib\net5.0\Reefact.FluentRequestBinder.pdb" />
+    <!-- Documentation -->
+    <file src="README-EN.md" target="docs\readme.md" />
+  </files>
+</package>
