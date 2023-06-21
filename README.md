@@ -2,3 +2,4 @@ _[Version française](README.md) - [English Version](README-EN.md) - [Nederlands
 
 # Adaptateur ASP.Net pour la librairie Fluent Request Binder
 
+Fournit une intégration complète de la bibliothèque FluentRequestBinder aux projets Asp.Net.

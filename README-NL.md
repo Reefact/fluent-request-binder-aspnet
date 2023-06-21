@@ -2,3 +2,4 @@
 
 #  ASP.Net-adapter voor Fluent Request Binder 
 
+Biedt een volledige integratie van de FluentRequestBinder bibliotheek in Asp.Net projecten.

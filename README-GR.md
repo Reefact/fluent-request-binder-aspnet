@@ -2,3 +2,4 @@
 
 # Προσαρμογέας ASP.Net για Fluent Request Binder 
 
+Παρέχει πλήρη ενσωμάτωση της βιβλιοθήκης FluentRequestBinder σε έργα Asp.Net.
