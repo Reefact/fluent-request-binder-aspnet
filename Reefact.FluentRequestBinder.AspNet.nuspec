@@ -3,7 +3,7 @@
   <metadata>
     <id>Reefact.FluentRequestBinder.AspNet</id>
     <title>Asp.Net Adapter for Fluent Request Binder</title>
-    <version>5.0.0</version>
+    <version>5.0.1</version>
     <authors>Sylvain AURAT</authors>
     <owners>Sylvain AURAT</owners>
     <license type="expression">Apache-2.0</license>
@@ -27,9 +27,9 @@
     <file src="icon.png" target="images\" />
     <!-- Library -->
     <!-- net5.0  -->
-    <file src="Reefact.FluentRequestBinder.AspNet\bin\Debug\net5.0\Reefact.FluentRequestBinder.AspNet.dll" target="lib\net5.0\Reefact.FluentRequestBinder.dll" />
-    <file src="Reefact.FluentRequestBinder.AspNet\bin\Debug\net5.0\Reefact.FluentRequestBinder.AspNet.xml" target="lib\net5.0\Reefact.FluentRequestBinder.xml" />
-    <file src="Reefact.FluentRequestBinder.AspNet\bin\Debug\net5.0\Reefact.FluentRequestBinder.AspNet.pdb" target="lib\net5.0\Reefact.FluentRequestBinder.pdb" />
+    <file src="Reefact.FluentRequestBinder.AspNet\bin\Debug\net5.0\Reefact.FluentRequestBinder.AspNet.dll" target="lib\net5.0\Reefact.FluentRequestBinder.AspNet.dll" />
+    <file src="Reefact.FluentRequestBinder.AspNet\bin\Debug\net5.0\Reefact.FluentRequestBinder.AspNet.xml" target="lib\net5.0\Reefact.FluentRequestBinder.AspNet.xml" />
+    <file src="Reefact.FluentRequestBinder.AspNet\bin\Debug\net5.0\Reefact.FluentRequestBinder.AspNet.pdb" target="lib\net5.0\Reefact.FluentRequestBinder.AspNet.pdb" />
     <!-- Documentation -->
     <file src="README-EN.md" target="docs\readme.md" />
   </files>
