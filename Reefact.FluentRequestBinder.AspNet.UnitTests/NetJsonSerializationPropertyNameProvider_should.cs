@@ -22,7 +22,7 @@ namespace Reefact.FluentRequestBinder.AspNet.UnitTests {
             NetJsonSerializationPropertyNameProvider propertyNameProvider = new(useStrictMode);
             PropertyInfo?                            propertyInfo         = typeof(DemoteMember_v1).GetProperty(nameof(DemoteMember_v1.TeamId));
             // Exercise
-            string name = propertyNameProvider.GetName(propertyInfo!);
+            string name = propertyNameProvider.GetArgumentNameFrom(propertyInfo!);
             // Verify
             Check.That(name).IsEqualTo("team-id");
         }
@@ -33,7 +33,7 @@ namespace Reefact.FluentRequestBinder.AspNet.UnitTests {
             NetJsonSerializationPropertyNameProvider propertyNameProvider = new();
             PropertyInfo?                            propertyInfo         = typeof(DemoteMember_v1).GetProperty(nameof(DemoteMember_v1.MemberUtCode));
             // Exercise & verify
-            Check.ThatCode(() => propertyNameProvider.GetName(propertyInfo!))
+            Check.ThatCode(() => propertyNameProvider.GetArgumentNameFrom(propertyInfo!))
                  .Throws<FluentRequestBinderAspNetException>()
                  .WithMessage("Property 'Reefact.FluentRequestBinder.AspNet.UnitTests.NetJsonSerializationPropertyNameProvider_should+DemoteMember_v1:MemberUtCode' has no JsonPropertyNameAttribute attribute.");
         }
@@ -44,7 +44,7 @@ namespace Reefact.FluentRequestBinder.AspNet.UnitTests {
             NetJsonSerializationPropertyNameProvider propertyNameProvider = new(false);
             PropertyInfo?                            propertyInfo         = typeof(DemoteMember_v1).GetProperty(nameof(DemoteMember_v1.MemberUtCode));
             // Exercise
-            string name = propertyNameProvider.GetName(propertyInfo!);
+            string name = propertyNameProvider.GetArgumentNameFrom(propertyInfo!);
             // Verify
             Check.That(name).IsEqualTo("MemberUtCode");
         }
@@ -54,7 +54,7 @@ namespace Reefact.FluentRequestBinder.AspNet.UnitTests {
             // Setup
             NetJsonSerializationPropertyNameProvider propertyNameProvider = new();
             // Exercise & verify
-            Check.ThatCode(() => propertyNameProvider.GetName(null!))
+            Check.ThatCode(() => propertyNameProvider.GetArgumentNameFrom(null!))
                  .Throws<ArgumentNullException>();
         }
 
