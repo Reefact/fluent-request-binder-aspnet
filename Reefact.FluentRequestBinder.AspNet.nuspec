@@ -3,7 +3,7 @@
   <metadata>
     <id>Reefact.FluentRequestBinder.AspNet</id>
     <title>Asp.Net Adapter for Fluent Request Binder</title>
-    <version>5.0.6</version>
+    <version>5.0.7</version>
     <authors>Sylvain AURAT</authors>
     <owners>Sylvain AURAT</owners>
     <license type="expression">Apache-2.0</license>
