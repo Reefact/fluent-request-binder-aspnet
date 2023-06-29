@@ -7,13 +7,13 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <nullable>enable</nullable>
     <ApplicationIcon>icon.ico</ApplicationIcon>
-    <AssemblyVersion>5.0.7</AssemblyVersion>
-    <FileVersion>5.0.7</FileVersion>
-    <Version>5.0.7</Version>
+    <AssemblyVersion>5.0.8</AssemblyVersion>
+    <FileVersion>5.0.8</FileVersion>
+    <Version>5.0.8</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Reefact.FluentRequestBinder" Version="0.1.3" />
+    <PackageReference Include="Reefact.FluentRequestBinder" Version="0.1.4" />
   </ItemGroup>
 
   <ItemGroup>
